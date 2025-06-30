@@ -25,19 +25,15 @@ To run the experiments:
 
 ## Reproducibility
 
-The results are reproducible thanks to:
-- A consistent master seed
-- Per-bandit random number generators
+- Consistent master seed
+- Random number generators for each bandit
 - Fixed seeds used for drift and abrupt changes across all simulations
 
 These steps ensure that the algorithms can be compared fairly and consistently.
 
-## What’s Included
+## Included
 
 - Code for all algorithms
 - Plots showing average rewards and optimal action rates
 - A separate report (submitted outside the notebook)
 
-## Submission Info
-
-This work was completed in May 2025 as part of a course project.
